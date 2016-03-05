@@ -1,20 +1,3 @@
-class PlayingCard
-  def initialize(rank, suit)
-    @rank = rank
-    @suit = suit
-  end
-
-  def face_card?
-    ['J', 'Q', 'K']
-  end
-end
-
-class Hand
-  def initialize(cards = [])
-    @cards = cards
-  end
-end
-
 class Deck
   SUITS = ['♠',	'♥', '♦',	'♣']
   VALUES = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
